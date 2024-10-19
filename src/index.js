@@ -6,7 +6,7 @@ import mongoose, { connect } from 'mongoose';
 import { DB_NAME } from './constants';
 import connectDB from './db/index.js';
 dotenv.config({
-    path:'./.env'
+    path: './.env'
 })
 
 
